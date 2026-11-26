@@ -1,0 +1,23 @@
+local v1 = {
+	["TerrainMaterials"] = {},
+	["TerrainProperties"] = {},
+	["LightingProperties"] = {
+		["Ambient"] = nil,
+		["Brightness"] = 5,
+		["ColorShift_Bottom"] = nil,
+		["ColorShift_Top"] = nil,
+		["EnvironmentDiffuseScale"] = 1,
+		["EnvironmentSpecularScale"] = 1,
+		["OutdoorAmbient"] = nil,
+		["ShadowSoftness"] = 0.5,
+		["ClockTime"] = 10.74,
+		["GeographicLatitude"] = 31.067,
+		["ExposureCompensation"] = -0.42,
+		["Ambient"] = Color3.fromRGB(163, 172, 163),
+		["ColorShift_Bottom"] = Color3.fromRGB(124, 170, 213),
+		["ColorShift_Top"] = Color3.fromRGB(55, 101, 115),
+		["OutdoorAmbient"] = Color3.fromRGB(54, 77, 83)
+	},
+	["SoundServiceProperties"] = {}
+}
+return v1
