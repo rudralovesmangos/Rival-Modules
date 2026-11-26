@@ -1,0 +1,15 @@
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Modules.Utility)
+return function(p3)
+	-- upvalues: (copy) v_u_2
+	wait(0.4)
+	v_u_2:CreateSound("rbxassetid://18184509157", 6, 1, p3.HumanoidRootPart, true)
+	wait(0.25)
+	v_u_2:CreateSound("rbxassetid://18184509157", 6, 1.25, p3.HumanoidRootPart, true)
+	wait(0.25)
+	v_u_2:CreateSound("rbxassetid://18184509157", 6, 1.125, p3.HumanoidRootPart, true)
+	wait(0.25)
+	v_u_2:CreateSound("rbxassetid://18184509157", 6, 1.375, p3.HumanoidRootPart, true)
+	wait(1)
+	v_u_2:CreateSound("rbxassetid://18184414067", 0.625, 1, p3.HumanoidRootPart, true)
+end
